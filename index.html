@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farhan | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Personal Portfolio</p>
+        <h1>Hi, I'm Farhan</h1>
+        <p>I build clean, engaging web experiences using HTML, CSS, and JavaScript. I specialize in frontend design, product-led development, and creating websites that feel polished and perform smoothly.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Let's Talk</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-inner">
+          <h2>Professional Snapshot</h2>
+          <ul>
+            <li><strong>Role:</strong> Frontend Developer</li>
+            <li><strong>Experience:</strong> 5+ years</li>
+            <li><strong>Focus:</strong> Responsive Web Apps</li>
+            <li><strong>Tools:</strong> HTML, CSS, JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about" class="section container">
+      <div class="section-header">
+        <p class="section-label">About Me</p>
+        <h2>Detail-driven design and development</h2>
+      </div>
+      <p>I create user-friendly websites with a focus on performance, accessibility, and modern styling. My process balances strong visuals, clear messaging, and clean code so every project looks great and works reliably across devices.</p>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>50+</h3>
+          <p>Web pages launched</p>
+        </div>
+        <div class="stat-card">
+          <h3>15</h3>
+          <p>Completed client projects</p>
+        </div>
+        <div class="stat-card">
+          <h3>100%</h3>
+          <p>Responsive builds</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt container">
+      <div class="section-header">
+        <p class="section-label">Experience</p>
+        <h2>Recent work roles</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-date">Aug 2024 – Present</span>
+          <h3>Sr. Developer - WordPress / Shopify and Web Project Manager</h3>
+          <p>Scepter Marketing (USA) - Full Time</p>
+          <p>WordPress website development and maintenance. Shopify 2.0 development and store setup. Bootstrap framework coding (HTML/CSS/JS). Liquid coding for Shopify templates.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-date">Oct 2024 – July 2025</span>
+          <h3>Sr. WordPress / Shopify Developer</h3>
+          <p>Xntric by LPS Brands (UAE) - <a href="https://lps-me.com/" target="_blank" rel="noreferrer">lps-me.com</a></p>
+          <p>WordPress website development and maintenance. Shopify development and store setup using Liquid. Bootstrap framework coding. Elementor Pro development and Webflow website work.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-date">Feb 2020 – Sept 2024</span>
+          <h3>WordPress / Shopify Developer</h3>
+          <p>FullStop (USA/UK) - Full-time</p>
+          <p>Developed and maintained WordPress and Shopify sites, ensuring responsive layouts, performance, and platform-specific customizations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-header">
+        <p class="section-label">Portfolio</p>
+        <h2>Selected projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Brand Refresh Site</h3>
+          <p>Designed and built a modern portfolio website with custom animations, responsive layout, and fast load times.</p>
+          <span class="project-tag">UI / UX / Web Dev</span>
+        </article>
+        <article class="project-card">
+          <h3>Product Landing Page</h3>
+          <p>Created a polished landing page for a product launch, including conversion-focused sections and mobile-first structure.</p>
+          <span class="project-tag">Marketing / Performance</span>
+        </article>
+        <article class="project-card">
+          <h3>Dashboard Prototype</h3>
+          <p>Built a dashboard prototype with clean data cards, responsive tables, and intuitive interactions using only vanilla JS.</p>
+          <span class="project-tag">Dashboard / JavaScript</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt container">
+      <div class="section-header">
+        <p class="section-label">Contact</p>
+        <h2>Let's build something together</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-copy">
+          <p>If you're looking for a developer to improve your website or launch a new project, send a message and I will reply promptly.</p>
+          <ul>
+            <li><strong>Email:</strong> hello@example.com</li>
+            <li><strong>Location:</strong> Remote / Worldwide</li>
+          </ul>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project"></textarea>
+
+          <button type="submit">Send Message</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Farhan. Built with HTML, CSS, and JavaScript.</p>
+      <p>Open-source portfolio for web deployment.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
